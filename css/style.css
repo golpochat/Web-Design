@@ -1,0 +1,125 @@
+/*--------------- Global Style Start------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Sans-serif, Helvetica;
+    font-weight: 800;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: rgb(82, 84, 90);
+    min-height: 100px;
+    color: white;
+}
+
+
+/*--------------- Global Style End------------*/
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    letter-spacing: 2px;
+}
+
+header a:hover {
+    color: tomato;
+    transition: all 0.2s ease-in-out;
+}
+
+header #navbranding {
+    min-height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+header nav {
+    min-height: 50px;
+    text-align: right;
+    float: right;
+    line-height: 100px;
+}
+
+.highlighter {
+    color: tomato;
+    font-weight: bold;
+}
+
+.toggle {
+    display: none;
+}
+
+
+/*--------------- Responsive navbar start------------*/
+
+@media only screen and (min-width: 320px)and (max-width: 959px) {
+    header nav {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+    nav ul {
+        float: left;
+        text-align: center;
+        display: none;
+        margin-top: 40px;
+    }
+    header .fa-bars {
+        display: block;
+        margin-top: 100px;
+        padding: 0px;
+    }
+    .toggle {
+        font-size: 30px;
+        text-align: left;
+        color: white;
+        display: block;
+        margin-bottom: 5px;
+    }
+    header li {
+        display: block;
+        letter-spacing: 2px;
+        margin-left: 5px;
+        margin-top: -75px;
+        text-align: left;
+        float: none;
+    }
+    .active {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 960px)and (max-width: 1290px) {
+    header #navbranding {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    header nav {
+        float: none;
+        width: 100%;
+        margin-top: -40px;
+        text-align: center;
+    }
+}
+
+
+/*--------------- Responsive navbar end------------*/
