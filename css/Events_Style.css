@@ -1,6 +1,5 @@
 #Main-doc {
   min-height: 60vh;
-  max-height: fit-content;
   width: 100%;
   padding-top: 4%;
   padding-bottom: 4%;
@@ -24,4 +23,10 @@
 #Main-doc p {
   padding: 15px;
   text-align: left;
+}
+#more {
+  display: none;
+}
+#Main-doc #pastEvents {
+  text-align: center;
 }

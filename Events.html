@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="Event_JavaScript.js"></script>
     <script>
       $(function () {
         $("a").each(function () {
@@ -22,8 +23,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/Events_Style.css" />
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/Events_Style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
@@ -74,7 +75,17 @@
         <p>Oct 16, 2019, 7:30pm Wayland Public Library, Wayland, MA</p>
         <p>Oct 19, 2019 Boston Book Festival</p>
         <p>Nov 14, 2019, 7pm Amazing Things Art Center, Framingham</p>
-        <p><a href="#"></a>view past events</p>
+        <span id="dots">...</span> <br>
+        <span id="more">
+        <p id = "pastEvents">----------- Past Events -----------</p>
+        <p>Nov 14, 2019, 7pm Amazing Things Art Center, Framingham</p>
+        <p>Nov 14, 2019, 7pm Amazing Things Art Center, Framingham</p>
+        <p>Nov 14, 2019, 7pm Amazing Things Art Center, Framingham</p>
+        <p>Nov 14, 2019, 7pm Amazing Things Art Center, Framingham</p>
+        <p>Nov 14, 2019, 7pm Amazing Things Art Center, Framingham</p>
+        <p>Nov 14, 2019, 7pm Amazing Things Art Center, Framingham</p>
+      </span>
+        <button onclick="myFunction()" id="myBtn">View past events</button>
     </main>
     <footer>
       <section id="signUp">
