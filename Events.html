@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+      $(function () {
+        $("a").each(function () {
+          if ($(this).prop("href") == window.location.href) {
+            $(this).addClass("active");
+            $(this)
+              .parents("li")
+              .addClass("active");
+          }
+        });
+      });
+    </script>
+    <link rel='favicon icon' href='/img/favicon.ico'>
+    <!-- font awesome for toggle bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Events_Style.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <title>Nobber</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- logo/brand name -->
+        <div class="navbranding">
+          <h1>Nobber</h1>
+          <p>A new novel by Oisín Fagan</p>
+        </div>
+        <!-- navigation bar -->
+        <nav class="navbar">
+          <div class="toggle">
+            <i class="fas fa-bars menu"></i>
+          </div>
+          <ul>
+            <li>
+              <a href="index.html">Home</span></a>
+            </li>
+            <li>
+              <a href="#nobber">Nobber</a>
+            </li>
+            <li>
+              <a href="#other-word">Other Work</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="Events.html">Events</a>
+            </li>
+            <li>
+              <a href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header></header>
+    <main id="Main-doc">
+      <section id="events">
+        <!---Html to be added to give view past events a function media elements to be added too-->
+        <header><h2>Events</h2></header>
+        <p>Sept 25, 2019 University of Indianapolis</p>
+        <p>Oct 16, 2019, 7:30pm Wayland Public Library, Wayland, MA</p>
+        <p>Oct 19, 2019 Boston Book Festival</p>
+        <p>Nov 14, 2019, 7pm Amazing Things Art Center, Framingham</p>
+        <p><a href="#"></a>view past events</p>
+    </main>
+    <footer>
+      <section id="signUp">
+        <h3>
+          Sign up for the nobber newsletter for updates, events, and more
+        </h3>
+      
+        <form action="https://formspree.io/mzbpwwgy" method="POST">
+          <input type="email" name="_replyto" placeholder="Your Email Here" required />
+          <input type="submit" value="Send" />
+        </form>
+      <div class="footer">
+        <a href="https://www.johnmurraypress.co.uk/imprint/jmpd/john-murray/page/privacy-notice-holder-jmp/">Privacy
+          policy</a>
+        <a href="https://www.johnmurraypress.co.uk/landing-page/terms-and-conditions-all/">Terms & conditions</a>
+      </div>
+      <div class="copyright">&copy; Copyright 2019 Nobber. All rights reserved.</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        // nav bar toggle
+        $('.menu').click(function () {
+          $('ul').toggleClass('active');
+        });
+      });
+    </script>
+  </body>
+</html>
