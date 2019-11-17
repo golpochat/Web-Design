@@ -125,7 +125,7 @@ header h1 {
 .box {
   display: flex;
   align-items: center;
-  padding: 100px;
+  padding: 70px;
 }
 
 .transbox img {
@@ -200,6 +200,27 @@ p {
     display: none;
 }
 
+/*---------------Responsive body design for small and medium devices-----------------------*/
+
+@media screen and (max-width: 1048px) {
+  .summary {
+    font-size: 15px;
+  }
+  .box {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+  .transbox {
+    margin: 10px;
+  }
+  .reviews h3 {
+    font-weight: 100;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 
 /*--------------- Responsive navbar design for small & medium devices ------------*/
 
