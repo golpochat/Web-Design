@@ -25,9 +25,9 @@ a {
 
 .phone-btn {
   display: block;
-  width: 80%;
+  width: 90%;
   margin: auto;
-  padding: 8px;
+  padding: 10px;
   background-color: rgb(59, 55, 55);
   color: white;
   border-radius: 6px;
@@ -66,9 +66,10 @@ a {
 /*modal content*/
 .modal-content{
   background-color: lightgrey;
-  margin: 20% auto;
+  margin: 10% auto;
   padding: 20px;
-  width: 70%;
+  width: 80%;
+  height: 80%;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,.2), 0 7px 20px 0 rgba(0,0,0,.17);
   /*animation*/
   animation-name: modalopen;
@@ -93,8 +94,8 @@ a {
   to{opacity: 1;}
 }
 
-
-@media only screen and (max-width: 779px){
+/*Removes review class when things get too packed*/
+@media only screen and (max-width: 928px){
   .review{
     display: none;
   }
@@ -138,8 +139,14 @@ a {
   .flex-2 p {
     padding: 5px;
     text-align: left;
+    font-weight: normal;
   }
 
+  .review p:nth-child(2), .review p:nth-child(4){
+    text-align: right;
+  }
+  
+  
   .tab-btn {
     float: right;
     width: 30%;
