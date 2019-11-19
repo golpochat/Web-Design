@@ -142,6 +142,17 @@ a {
     font-weight: normal;
   }
 
+  .flex-2 ul{
+    margin-top: 20px;
+    float: right;
+    
+  }
+
+  .flex-2 ul li{
+    list-style-type: none;
+    display: inline;
+  }
+
   .review p:nth-child(2), .review p:nth-child(4){
     text-align: right;
   }
@@ -156,6 +167,7 @@ a {
     color: white;
     border-radius: 6px;    
   }
+
 }
 /*Computer view*/
 @media only screen and (min-width: 1200px) {
