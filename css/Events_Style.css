@@ -38,7 +38,7 @@ body {
 
 #media {
   grid-column: 1 / 5;
-  max-height: 550px;
+  height: 550px;
 }
 #events {
   grid-column: 5;
@@ -53,6 +53,6 @@ body {
   }
   #media {
     grid-column: 1 / 6;
-    max-height: none;
+    height: auto;
   }
 }
