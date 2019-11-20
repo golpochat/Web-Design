@@ -70,4 +70,7 @@ header {
   .mediumInput {
     grid-column: 1/4;
   }
+  .map {
+    grid-column: 1/5;
+  }
 }
