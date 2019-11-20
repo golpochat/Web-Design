@@ -31,6 +31,9 @@
   align-content: center;
   margin: auto;
   font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(83, 83, 170);
 }
 .grid-container form .mediumInput {
   padding-left: 10px;
