@@ -33,8 +33,10 @@ body {
 
 header {
   background: transparent;
-  min-height: 100px;
   color: black;
+}
+h1 {
+  margin: 0px;
 }
 
 /*--------------- Global Style End------------*/
@@ -157,10 +159,12 @@ footer {
     display: block;
     /* margin-bottom: 5px; */
   }
-  .menu: hover {
+  /* Is this being used?
+  .menu hover {
     background: deepskyblue;
     transition: all 0.5s ease-in-out;
   }
+  */
   .navbar li {
     float: none;
     display: block;
