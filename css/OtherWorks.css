@@ -144,8 +144,7 @@ a {
 
   .flex-2 ul{
     margin-top: 20px;
-    float: right;
-    
+    float: right;    
   }
 
   .flex-2 ul li{
@@ -153,19 +152,18 @@ a {
     display: inline;
   }
 
+  .flex-2 a {
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: .4s;
+  }
+  .flex-2 a:hover, .flex-2 a:focus, .flex-2 a:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
   .review p:nth-child(2), .review p:nth-child(4){
     text-align: right;
-  }
-  
-  
-  .tab-btn {
-    float: right;
-    width: 30%;
-    margin-left: 10px;
-    padding: 10px;
-    background-color: rgb(59, 55, 55);
-    color: white;
-    border-radius: 6px;    
   }
 
 }
