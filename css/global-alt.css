@@ -19,6 +19,10 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: black;
   font-weight: 800;
+  background-image: url("../img/backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* initializing the container class */
