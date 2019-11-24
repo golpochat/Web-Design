@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
     //Sticky navigation bar
     $(window).scroll(function() {
         var top = $(window).scrollTop();
-        if (top >= 50) {
+        if (top >= 40) {
             $("nav").addClass('forscrolling');
             //    alert('I am not called!');
         } else
