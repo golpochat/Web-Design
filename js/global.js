@@ -7,19 +7,29 @@ Designed by : Sujan Hossain
 
 jQuery(document).ready(function() {
     // Nav bar toggle
-    $('.menu').click(function() {
-        $('ul').toggleClass('active');
+    $(".menu").click(function() {
+        $("ul").toggleClass("active");
     });
 
     //Sticky navigation bar
     $(window).scroll(function() {
         var top = $(window).scrollTop();
-        if (top >= 40) {
-            $("nav").addClass('forscrolling');
-            //    alert('I am not called!');
-        } else
-        if ($("nav").hasClass('forscrolling')) {
-            $("nav").removeClass('forscrolling');
+        if (screen.width >= 760) {
+            if (top >= 40) {
+                $("nav").addClass("forscrolling");
+                $(".brandname").hide();
+                // alert("i m 1");
+            } else if ($("nav").hasClass("forscrolling")) {
+                $("nav").removeClass("forscrolling");
+                $(".brandname").show();
+                // alert("i m 2");
+            }
+            // alert(screen.width);
+        } else {
+            $("nav").addClass("forscrolling");
+            $(".brandname").hide();
+            // alert("i m 3");
         }
+        // alert(screen.width);
     });
 });
