@@ -147,7 +147,7 @@ header h1 {
 .reviews h1 {
   font-weight: 100;
   text-align: left;
-  padding: 20px 100px 40px 100px;
+  padding: 20px 100px 30px 100px;
 }
 
 .reviews h3 {
@@ -179,10 +179,15 @@ p {
 
 /* design for purchase button group */
 
+.buybooks p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .buynow {
     text-align: center;
     margin: 20px 0;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 
