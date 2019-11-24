@@ -1,1 +1,68 @@
-/* Please write CSS code for only about-us page with responsiveness */
+
+.transbox {
+  margin: 80px;
+  background-color: rgba(240, 240, 240, 0.3);
+  border: 0.1px grey;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #000000;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  padding: 70px;
+}
+
+.bio h2{
+  text-align: center;
+  font-size: 35px;
+}
+
+.bio img{
+  float: right;
+  width: 30%;
+  height: auto;
+  margin: 20px;
+}
+
+.bio p{
+  font-size: 23px;
+  padding: 20px;
+  font-weight: 100;
+}
+
+.bio a:link, .bio a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bio a:hover, .bio a:active {
+  background-color: red;
+  transition: 0.4s ease-in-out;
+}
+
+/*---------------Responsive body design for small and medium devices-----------------------*/
+
+@media screen and (max-width: 1048px) {
+  .summary {
+    font-size: 15px;
+  }
+  .box {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+  .transbox {
+    margin: 10px;
+  }
+  .reviews h3 {
+    font-weight: 100;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
