@@ -13,3 +13,6 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+function red() {
+  Swal.fire("Thanks", "Enjoy your subscription", "success");
+}
