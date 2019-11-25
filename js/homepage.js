@@ -6,12 +6,11 @@ Designed by : Sujan Hossain
 */
 
 jQuery(document).ready(function() {
-
     // Water ripple effect
-    "use strict"
-    $('.img-and-review').ripples({
+    "use strict";
+    $(".img-and-review").ripples({
         dropRadius: 15,
-        perturbance: 0.2,
+        perturbance: 0.2
     });
 
     // Testimonials/Blurbs/Reviews

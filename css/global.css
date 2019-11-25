@@ -42,7 +42,8 @@ body {
 /* Sticky navigation color */
 
 .forscrolling {
-    background: #92a09a;
+    /* background: #92a09a; */
+    background-color: rgb(180, 42, 42);
     z-index: 2;
 }
 
@@ -76,7 +77,7 @@ body {
 /* hover design for navigaiton menu item */
 
 .navbar a:hover {
-    color: black;
+    color: white;
     transition: all 0.2s ease-in-out;
 }
 
@@ -104,7 +105,7 @@ body {
     font-size: 50px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     text-align: center;
 }
 
@@ -122,11 +123,11 @@ body {
 
 /* design for entire footer */
 
-footer {
+.container footer {
     margin: 20px 0;
-    /* background-color: #ffffff; */
-    background: #92a09a;
-    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: rgb(180, 42, 42);
+    color: white;
 }
 
 
@@ -140,7 +141,7 @@ footer {
     float: left;
     font-size: 16px;
     font-weight: 300;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 
@@ -160,7 +161,10 @@ footer {
 
 /*--------------- Responsive design of navigation bar & footer for small & medium devices ------------*/
 
-@media only screen and (max-width: 743px) {
+@media only screen and (max-width: 759px) {
+    .brandname {
+        display: none;
+    }
     .navbar {
         float: none;
         text-align: center;
@@ -183,8 +187,8 @@ footer {
         /* margin-bottom: 5px; */
     }
     .menu:hover {
-        background: black;
-        transition: all 0.2s ease-in-out;
+        background-color: black;
+        transition: all 0.2s ease-in;
     }
     .navbar li {
         float: none;
@@ -205,7 +209,7 @@ footer {
 
 /*--------------- Responsive design of navigation bar & footer for large devices ------------*/
 
-@media only screen and (min-width: 744px) {
+@media only screen and (min-width: 760px) {
     .brandname {
         float: none;
         width: 100%;
