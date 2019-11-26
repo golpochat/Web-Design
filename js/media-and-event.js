@@ -2,7 +2,7 @@ function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
-
+  $(".dots").slideToggle("fast");
   if (dots.style.display === "none") {
     dots.style.display = "inline";
     btnText.innerHTML = "View past events";
@@ -12,7 +12,4 @@ function myFunction() {
     btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
   }
-}
-function red() {
-  Swal.fire("Thanks", "Enjoy your subscription", "success");
 }
