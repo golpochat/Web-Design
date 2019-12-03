@@ -30,7 +30,7 @@ body {
 /* initializing the container class */
 
 .container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -39,13 +39,17 @@ body {
 
 .forscrolling {
   /* background: #92a09a; */
+  position: fixed;
+  top: 0px;
+  padding: 10px 0;
+  width: 100%;
   background-color: rgb(180, 42, 42);
   z-index: 2;
 }
 
 /* ul item for navigation menu */
 
-.menus {
+ul {
   padding: 20px 0;
 }
 
@@ -85,7 +89,8 @@ body {
   margin: 20px 0;
   width: 100%;
   text-align: center;
-  color: white;
+  color: black;
+  line-height: 0px;
 }
 
 /*  design for h1 tag of brand name or logo */
@@ -101,50 +106,48 @@ body {
 /* design for navigation bar in the header */
 
 .navbar {
-  position: fixed;
-  top: 0;
   width: 100%;
   margin: auto;
   text-align: center;
 }
 
-/* design for entire footer */
-
-.container footer {
-  margin: 20px 0;
-  width: 100%;
-  background-color: rgb(180, 42, 42);
-  color: white;
-}
-
-/* design for privacy policy */
+/* footer */
 
 .footer {
-  margin: 20px 0;
+  margin: 0;
+  padding: 0;
   width: 100%;
   text-align: center;
   display: block;
   float: left;
-  font-size: 16px;
-  font-weight: 300;
-  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+footer {
+  text-align: center;
+  padding: 2%;
+  border-top: solid;
+  background: rgba(94, 67, 67, 0.4);
 }
 
+#signUp form {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 /* copyright */
 
 .copyright {
   width: 100%;
   text-align: center;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 300;
-  padding-bottom: 10px;
 }
 
 /*--------------- End of Global Style for navigation bar & footer ------------*/
 
 /*--------------- Responsive design of navigation bar & footer for small & medium devices ------------*/
 
-@media only screen and (max-width: 759px) {
+@media only screen and (max-width: 840px) {
   .brandname {
     display: none;
   }
@@ -190,7 +193,7 @@ body {
 
 /*--------------- Responsive design of navigation bar & footer for large devices ------------*/
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 841px) {
   .brandname {
     float: none;
     width: 100%;
