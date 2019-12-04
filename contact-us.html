@@ -68,7 +68,7 @@
   <main class= "grid-container">
 
     <header><h2>Contact Us</h2></header>
-    <form action="">
+    <form id="contact-form" action="https://formspree.io/mqkakjeq" method="POST">
       <input name="input_1" id="input_1_1" type="text" class = "mediumInput" placeholder = "First Name*" required>
       <input name="input_2" id="input_1_2" type="text" class = "mediumInput" placeholder="Last Name*" required>
       <input name="input_3" id="input_1_3" type="email" class = "mediumInput" placeholder="Email*" required>
@@ -77,7 +77,8 @@
       <input name="input_6" id="input_1_6" type="text" class = "mediumInput" placeholder="Company">
         <textarea name="input_7" id="input_1_7" class="textAreaMedium" placeholder="What can we do for you?"
           aria-invalid="false" rows="10" cols="50"></textarea>
-      <input type="submit" value="Send" id ="input_1_8" class = "mediumInput"/>
+      <button id="contact-form-button" class = "mediumInput"> Send it </button>
+      <p id="contact-form-status"></p>
     </form> 
 
   </main>
@@ -107,6 +108,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 <script src="js/global.js" type="text/javascript"></script>
+<script src="js/contact-us.js" type="text/javascript"></script>
 
 
 </body>
