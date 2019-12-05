@@ -73,7 +73,7 @@ ul {
 /* hover design for navigaiton menu item */
 
 .navbar a:hover {
-  color: white;
+  color: tomato;
   transition: all 0.2s ease-in-out;
 }
 
