@@ -20,8 +20,9 @@ Designed by : Sujan Hossain
 /* book image */
 
 .nobber-image img {
-    width: 70%;
-    height: auto;
+    width: 60%;
+    /* height: auto; */
+    height: 550px;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -67,7 +68,7 @@ Designed by : Sujan Hossain
 /* carosel items for review */
 
 .owl-carousel {
-    width: 29%;
+    width: 39%;
     height: auto;
     margin-top: 14%;
     overflow: auto;
@@ -89,24 +90,6 @@ Designed by : Sujan Hossain
 
 
 /* footer dessing */
-
-
-/* map's width */
-
-.map {
-    width: 100%;
-    margin: 20px 0;
-}
-
-
-/* header for map */
-
-.map h2 {
-    color: #ffffff;
-    text-align: center;
-    margin: 20px 0;
-    font-weight: 600;
-}
 
 
 /* design for purchase button group */
