@@ -51,10 +51,10 @@ p {
   display: none;
 }
 
-/*.phone-list li {
+.phone-list li {
   list-style-type: none;
   display: inline-block;
-} */
+} 
 
 /* phone modal start */
 /*modal settings */
