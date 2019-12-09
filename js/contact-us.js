@@ -8,10 +8,11 @@ window.addEventListener("DOMContentLoaded", function() {
   // Success and Error functions for after the form is submitted
 
   function success() {
-    //form.reset();
-    button.style = "display: none ";
-    status.innerHTML = "Thanks for contacting us";
-    document.getElementById("contact-form-status").style.padding = "10px";
+    form.reset();
+    //button.style = "display: none ";
+    //status.innerHTML = "Thanks for contacting us";
+    //document.getElementById("contact-form-status").style.padding = "10px";
+    Swal.fire("Thanks", "For contacting us", "success");
   }
 
   function error() {
