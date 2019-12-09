@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: auto;
     background-color: transparent;
-    background-image: url("/img/background.jpg");
+    background-image: url("../img/backgroundImage.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -33,7 +33,7 @@ body {
 /* initializing the container class */
 
 .container {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -43,6 +43,10 @@ body {
 
 .forscrolling {
     /* background: #92a09a; */
+    position: fixed;
+    top: 0px;
+    padding: 10px 0;
+    width: 100%;
     background-color: rgb(180, 42, 42);
     z-index: 2;
 }
@@ -50,7 +54,7 @@ body {
 
 /* ul item for navigation menu */
 
-.menus {
+ul {
     padding: 20px 0;
 }
 
@@ -77,7 +81,7 @@ body {
 /* hover design for navigaiton menu item */
 
 .navbar a:hover {
-    color: white;
+    color: tomato;
     transition: all 0.2s ease-in-out;
 }
 
@@ -95,7 +99,8 @@ body {
     margin: 20px 0;
     width: 100%;
     text-align: center;
-    color: white;
+    color: black;
+    line-height: 0px;
 }
 
 
@@ -113,35 +118,35 @@ body {
 /* design for navigation bar in the header */
 
 .navbar {
-    position: fixed;
-    top: 0;
     width: 100%;
     margin: auto;
     text-align: center;
 }
 
 
-/* design for entire footer */
-
-.container footer {
-    margin: 20px 0;
-    width: 100%;
-    background-color: rgb(180, 42, 42);
-    color: white;
-}
-
-
-/* design for privacy policy */
+/* footer */
 
 .footer {
-    margin: 20px 0;
+    margin: 0;
+    padding: 0;
     width: 100%;
     text-align: center;
     display: block;
     float: left;
-    font-size: 16px;
-    font-weight: 300;
-    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+footer {
+    text-align: center;
+    padding: 2%;
+    border-top: solid;
+    background: rgba(94, 67, 67, 0.4);
+}
+
+#signUp form {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .footer a {
@@ -154,9 +159,8 @@ body {
 .copyright {
     width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 300;
-    padding-bottom: 10px;
 }
 
 
@@ -165,7 +169,7 @@ body {
 
 /*--------------- Responsive design of navigation bar & footer for small & medium devices ------------*/
 
-@media only screen and (max-width: 759px) {
+@media only screen and (max-width: 840px) {
     .brandname {
         display: none;
     }
@@ -213,7 +217,7 @@ body {
 
 /*--------------- Responsive design of navigation bar & footer for large devices ------------*/
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 841px) {
     .brandname {
         float: none;
         width: 100%;

@@ -1,15 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(221, 218, 218);
-}
-
 a {
   text-decoration: none;
 }
-p{
+
+/* Note from gearoid this is why your title is different than the others */
+p {
   font-weight: normal;
 }
 
@@ -20,7 +14,7 @@ p{
 
 .book {
   width: 90%;
-  margin-left: 5px;
+  margin-left: 20px;
   margin-bottom: 30px;
   margin-bottom: 2px;
   border-radius: 6px;
@@ -47,21 +41,24 @@ p{
 
 .flex-2 {
   display: none;
+  margin: 20px 0 auto;
+}
+.flex-2 ul {
+  bottom: 0;
 }
 
 .tab-button {
   display: none;
 }
 
-.phone-list li{
+/*.phone-list li {
   list-style-type: none;
   display: inline-block;
-}
-
+} */
 
 /* phone modal start */
 /*modal settings */
-.modal{
+.modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -70,42 +67,50 @@ p{
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /*modal content*/
-.modal-content{
+.modal-content {
   background-color: lightgrey;
   margin: 10% auto;
   padding: 20px;
   width: 80%;
   height: 80%;
-  box-shadow: 0 5px 8px 0 rgba(0,0,0,.2), 0 7px 20px 0 rgba(0,0,0,.17);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   /*animation*/
   animation-name: modalopen;
   animation-duration: 1s;
 }
 
 /* modal close button */
-.closeBtn1, .closeBtn2{
+.closeBtn1,
+.closeBtn2 {
   color: black;
   float: right;
   font-size: 30px;
 }
-.closeBtn1:hover, .closeBtn1:focus, .closeBtn2:hover, .closeBtn2:focus{
+.closeBtn1:hover,
+.closeBtn1:focus,
+.closeBtn2:hover,
+.closeBtn2:focus {
   color: navy;
   text-decoration: none;
   cursor: pointer;
 }
 
 /*Keyframe for modal animation*/
-@keyframes modalopen{
-  from{opacity: 0;}
-  to{opacity: 1;}
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*Removes review class when things get too packed*/
-@media only screen and (max-width: 928px){
-  .review{
+@media only screen and (max-width: 928px) {
+  .review {
     display: none;
   }
 }
@@ -128,36 +133,36 @@ p{
   }
 
   .flex-1 {
+    display: flex;
     flex: 1;
   }
 
   .flex-2 {
-    display: block;
+    display: flex;
     flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100hv;
   }
-
 
   .flex-2 h2 {
     padding: 5px 5px 15px;
     text-align: left;
-  }
-  .flex-2 h3 {
-    padding: 5px 5px 15px;
-    text-align: left;
+    font-size: 2.5em;
   }
 
   .flex-2 p {
     padding: 5px;
     text-align: left;
-    font-weight: normal;
+    font-size: 1.2em;
   }
 
-  .flex-2 ul{
+  .flex-2 ul {
     margin-top: 20px;
-    float: right;    
+    float: right;
   }
 
-  .flex-2 li{
+  .flex-2 li {
     list-style-type: none;
     display: inline;
   }
@@ -166,16 +171,18 @@ p{
     display: inline-block;
     vertical-align: middle;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    transition-duration: .4s;
+    transition-duration: 0.4s;
   }
-  .flex-2 a:hover, .flex-2 a:focus, .flex-2 a:active {
+  .flex-2 a:hover,
+  .flex-2 a:focus,
+  .flex-2 a:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   }
 
-  .review p:nth-child(2), .review p:nth-child(4){
+  .review p:nth-child(2),
+  .review p:nth-child(4) {
     text-align: right;
   }
-
 }
 /*Computer view*/
 @media only screen and (min-width: 1200px) {

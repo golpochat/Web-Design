@@ -1,107 +1,7 @@
-/*--------------- Global Style Start------------*/
-
-/* reset default margin to 0 */
-
-* {
-  margin: 0;
-}
-
-/* set the body color and font */
-
-body {
-  width: 100%;
-  height: 100%;
-  background-color: #f5f5f5;
-  font-family: "Barlow Condensed", sans-serif;
-  color: white;
-  font-weight: 800;
-  background-image: url("../img/backgroundImage.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-/* initializing the container class */
-
-.container {
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-}
-
-/* header background color & font color for navigation  */
-
-header {
-  background: transparent;
-  min-height: 100px;
-  color: white;
-}
-
-/*--------------- Global Style End------------*/
-
-/* design for navigaiton menu item */
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  /* text-transform: uppercase; */
-  font-size: 18px;
-}
-
-/* design for navigation list item */
-
-.navbar li {
-  display: inline;
-  padding: 0 20px 0 20px;
-  letter-spacing: 2px;
-}
-
-/* hover design for navigaiton menu item */
-
-.navbar a:hover {
-  color: tomato;
-  transition: all 0.2s ease-in-out;
-}
-
-.navbar a:active {
-  border-bottom: 1px solid white;
-}
-
-/* design for Twitter icon */
-
-.fa-twitter,
-.fa-instagram,
-.fa-facebook {
-  padding: 10px;
-  font-size: 30px;
-  width: 2px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-/* design for brand name or logo */
-
-.navbranding {
-  margin: 20px 0;
-  width: 100%;
-  text-align: center;
-}
-
 header h1 {
   font-size: 50px;
   letter-spacing: 2px;
   text-transform: uppercase;
-}
-
-/* design for navigation bar in the header */
-
-.navbar {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  text-align: center;
 }
 
 /* box sections */
@@ -112,6 +12,7 @@ header h1 {
   border: 0.1px grey;
   font-family: "Barlow Condensed", sans-serif;
   color: #000000;
+  font-size: 85%;
 }
 
 .box {
@@ -121,7 +22,7 @@ header h1 {
 }
 
 .transbox img {
-  width: 50%;
+  width: 35%;
   height: auto;
   text-align: center;
   margin: auto;
@@ -162,7 +63,7 @@ header h1 {
   font-weight: 100;
   text-align: left;
   padding: 10px 100px 10px 100px;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-size: 20px;
   border: none;
   cursor: pointer;
@@ -170,9 +71,14 @@ header h1 {
 }
 
 #myBtn:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24), 0 8px 30px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
+#more {
+  display: none;
+}
+
+/* Note from Gearoid this is what makes your title different from global */
 p {
   font-weight: 100;
 }
@@ -185,84 +91,51 @@ p {
 }
 
 .buynow {
-    text-align: center;
-    margin: 20px 0;
-    padding-bottom: 20px;
+  text-align: center;
+  margin: 20px 0;
+  padding-bottom: 20px;
 }
-
 
 /* text for purchase button */
 
 .buynow a {
-    text-decoration: none;
-    font-size: 18px;
-    color: darkgrey;
+  text-decoration: none;
+  font-size: 18px;
+  color: darkgrey;
 }
 
-
 /* start of button design*/
-
 
 /* button for purchase link */
 
 .button {
-    width: 200px;
-    height: 35px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 900;
-    font-family: 'Barlow Condensed', sans-serif;
-    background-color: #47d147;
-    color: darkred;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    display: inline-block;
+  width: 200px;
+  height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 900;
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: #47d147;
+  color: darkred;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
 }
-
 
 /* hover for button */
 
 .button :hover {
-    color: #000;
-    background-color: #f5f5f5;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    transform: translateY(-7px);
+  color: #000;
+  background-color: #f5f5f5;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-7px);
 }
-
 
 /* end of button design */
-
-/* footer */
-
-.footer {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  text-align: center;
-  display: block;
-  float: left;
-  font-size: 14px;
-  font-weight: 200;
-}
-
-/* copyright */
-
-.copyright {
-  width: 100%;
-  text-align: center;
-  font-size: 10px;
-  font-weight: 300;
-}
-
-/*  hide the button */
-
-.toggle {
-  display: none;
-}
 
 /*---------------Responsive body design for small and medium devices-----------------------*/
 
@@ -285,69 +158,3 @@ p {
     padding-right: 10px;
   }
 }
-
-/*--------------- Responsive navbar design for small & medium devices ------------*/
-
-@media only screen and (max-width: 1048px) {
-  .navbar {
-    float: none;
-    text-align: center;
-    display: block;
-  }
-  nav ul {
-    float: left;
-    text-align: center;
-    display: none;
-    margin-top: 40px;
-  }
-  .navbar .fa-bars {
-    margin-left: 10px;
-    color: black;
-  }
-  .toggle {
-    font-size: 30px;
-    text-align: left;
-    color: white;
-    display: block;
-    /* margin-bottom: 5px; */
-  }
-  .menu: hover {
-    background: deepskyblue;
-    transition: all 0.5s ease-in-out;
-  }
-  .navbar li {
-    float: none;
-    display: block;
-    margin-left: 20px;
-  }
-  .active {
-    display: block;
-    float: none;
-    margin-top: -5px;
-    margin-bottom: 10px;
-    padding: 0;
-    width: 100%;
-    height: 0 auto;
-    text-align: left;
-  }
-}
-
-/*--------------- End of responsive navbar design for small & medium devices ------------*/
-
-/*--------------- Responsive navbar design for large devices ------------*/
-
-@media only screen and (min-width: 1049) {
-  .navbranding {
-    float: none;
-    width: 100%;
-    text-align: center;
-  }
-  .navbar {
-    float: none;
-    width: 100%;
-    margin-top: -40px;
-    text-align: center;
-  }
-}
-
-/*--------------- End of responsive navbar design for large devices ------------*/
