@@ -12,7 +12,15 @@ window.addEventListener("DOMContentLoaded", function() {
     //button.style = "display: none ";
     //status.innerHTML = "Thanks for contacting us";
     //document.getElementById("contact-form-status").style.padding = "10px";
-    Swal.fire("Thanks", "For contacting us", "success");
+    Swal.fire({
+      title: "Thanks for contacting us!",
+      width: 300,
+      padding: "3em",
+      background: "#fff",
+      backdrop: `
+    rgba(0,0,123,0.4)
+  `
+    });
   }
 
   function error() {
