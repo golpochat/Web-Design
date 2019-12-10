@@ -123,7 +123,6 @@
   .book-holder {
     display: flex;
     padding: 20px;
-    align-content: left;
     background-color: rgba(240, 240, 240, 0.3);
   }
 
@@ -137,7 +136,6 @@
     flex: 1;
     justify-content: space-between;
     flex-direction: column;
-    height: 100hv;
     margin: 20px 0 auto;
   }
 
@@ -192,6 +190,5 @@
     margin: 0 auto;
     float: none;
     display: flex;
-    align-content: left;
   }
 }
