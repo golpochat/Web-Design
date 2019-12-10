@@ -1,7 +1,7 @@
 /*styling for the book images*/
 .book {
-  width: 90%;
-  margin-left: 20px;
+  width: 100%;
+  
   margin-bottom: 30px;
   margin-bottom: 2px;
   border-radius: 6px;
@@ -9,7 +9,7 @@
 /*styling the button that appears on the small screen view*/
 .phone-btn {
   display: block;
-  width: 90%;
+  width: 85%;
   margin: auto;
   padding: 10px;
   background-color: rgb(59, 55, 55);
@@ -190,5 +190,9 @@
     margin: 0 auto;
     float: none;
     display: flex;
+  }
+  .book {
+    width: 75%;
+    margin-left: 40px;
   }
 }
