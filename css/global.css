@@ -159,7 +159,7 @@ footer {
     float: left;
     text-align: center;
     display: none;
-    margin-top: 20px;
+    /* margin-top: 40px; */
   }
   .navbar .fa-bars {
     margin: 20px;
