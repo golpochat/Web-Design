@@ -24,7 +24,16 @@ jQuery(document).ready(function() {
       }
       // alert(screen.width);
     } else {
-      $(".menus").addClass("forscrolling");
+      if (top >= 100) {
+        $(".toggle").addClass("forscrolling");
+        $(".menus").addClass("forscrolling");
+        $(".menus").addClass("navmargin");
+      } else if ($(".menus").hasClass("forscrolling") && top < 30) {
+        $(".toggle").removeClass("forscrolling");
+        $(".menus").removeClass("forscrolling");
+        $(".menus").removeClass("navmargin");
+      }
+
       // alert("i m 3");
     }
     // alert(screen.width);

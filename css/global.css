@@ -41,7 +41,6 @@ body {
   /* background: #92a09a; */
   position: fixed;
   top: 0px;
-  padding: 10px 0;
   width: 100%;
   background-color: rgb(221, 69, 68);
   z-index: 2;
@@ -160,7 +159,7 @@ footer {
     float: left;
     text-align: center;
     display: none;
-    /* margin-top: 40px; */
+    margin-top: 20px;
   }
   .navbar .fa-bars {
     margin: 20px;
@@ -186,6 +185,9 @@ footer {
     float: none;
     margin-top: -5px;
     text-align: left;
+  }
+  .navmargin {
+    margin-top: 50px;
   }
 }
 
