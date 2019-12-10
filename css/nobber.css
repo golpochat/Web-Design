@@ -4,6 +4,10 @@ header h1 {
   text-transform: uppercase;
 }
 
+.brandname {
+  color: white;
+}
+
 /* box sections */
 
 .transbox {
