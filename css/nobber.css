@@ -141,7 +141,7 @@ p {
 
 @media screen and (max-width: 1048px) {
   .summary {
-    font-size: 15px;
+    font-size: 12px;
   }
   .box {
     flex-direction: column;
@@ -151,10 +151,19 @@ p {
   .transbox {
     margin: 10px;
   }
+  .transbox img{
+    padding-left: 40px;
+  }
+  .reviews h1{
+    text-align: center;
+    }
   .reviews h3 {
     font-weight: 100;
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  #myBtn {
+    margin-left: 55px;
   }
 }
