@@ -23,19 +23,7 @@ jQuery(document).ready(function() {
         // alert("i m 2");
       }
       // alert(screen.width);
-    } /*else {
-      if (top >= 100) {
-        $(".toggle").addClass("forscrolling");
-        $(".menus").addClass("forscrolling");
-        $(".menus").addClass("navmargin");
-      } else if ($(".menus").hasClass("forscrolling") && top < 10) {
-        $(".toggle").removeClass("forscrolling");
-        $(".menus").removeClass("forscrolling");
-        $(".menus").removeClass("navmargin");
-      }
-
-      // alert("i m 3");
-    } */
+    }
     // alert(screen.width);
   });
 });

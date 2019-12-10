@@ -154,11 +154,17 @@ footer {
     float: none;
     text-align: center;
     display: block;
+    margin-bottom: 70px;
   }
   nav ul {
     float: left;
     text-align: center;
     display: none;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    background-color: rgb(221, 69, 68);
+    z-index: 2;
     /* margin-top: 40px; */
   }
   .navbar .fa-bars {
@@ -169,6 +175,11 @@ footer {
     text-align: left;
     color: white;
     display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(221, 69, 68);
+    z-index: 2;
     /* margin-bottom: 5px; */
   }
   .menu:hover {
@@ -185,9 +196,6 @@ footer {
     float: none;
     margin-top: -5px;
     text-align: left;
-  }
-  .navmargin {
-    margin-top: 50px;
   }
 }
 
