@@ -2,11 +2,6 @@ a {
   text-decoration: none;
 }
 
-/* Note from gearoid this is why your title is different than the others */
-p {
-  font-weight: normal;
-}
-
 .wrapper {
   width: 100%;
   align-content: center;
