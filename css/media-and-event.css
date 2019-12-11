@@ -29,7 +29,7 @@
   padding: 20px 0;
   font-size: 30px;
 }
-/*MEDIA IS IN CSS TWICE*/
+
 #media {
   grid-column: 1 / 5;
   height: 550px;

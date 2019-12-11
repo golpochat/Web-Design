@@ -148,6 +148,7 @@
   .flex-2 p {
     padding: 5px;
     text-align: left;
+    font-size: 1.2em;
   }
   .flex-2 ul {
     margin-top: 20px;

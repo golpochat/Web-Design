@@ -1,11 +1,6 @@
-.brandname {
-  color: white;
-}
 
 .transbox {
-  margin: 50px;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin: 80px;
   background-color: rgba(240, 240, 240, 0.3);
   border: 0.1px grey;
   font-family: "Barlow Condensed", sans-serif;
@@ -28,11 +23,10 @@
   width: 30%;
   height: auto;
   margin: 20px;
-  margin-right: 10px;
 }
 
 .bio p{
-  font-size: 22px;
+  font-size: 23px;
   padding: 20px;
   font-weight: 100;
 }
@@ -51,10 +45,9 @@
   transition: 0.4s ease-in-out;
 }
 
-/*--Responsive body design for small and medium devices--*/
+/*---------------Responsive body design for small and medium devices-----------------------*/
 
 @media screen and (max-width: 1048px) {
-  /*summary not used in html for about-us*/
   .summary {
     font-size: 15px;
   }
@@ -66,7 +59,6 @@
   .transbox {
     margin: 10px;
   }
-   /*reviews not used in html for about-us*/
   .reviews h3 {
     font-weight: 100;
     text-align: left;
