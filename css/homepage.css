@@ -83,6 +83,7 @@ Designed by : Sujan Hossain
 
 .review {
     width: 95%;
+    padding: 10px;
 }
 
 
@@ -289,8 +290,7 @@ Designed by : Sujan Hossain
         font-size: 20px;
         text-align: center;
         overflow: hidden;
-        margin: 0 auto;
-        /* margin: 20px; */
+        margin: 15px auto;
     }
     /* button for purchase link */
     .button {
