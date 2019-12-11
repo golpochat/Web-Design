@@ -1,4 +1,4 @@
-/* 
+/*
 This CSS design for global style of Navigatiion bar & footer.
 
 Designed by : Sujan Hossain
@@ -127,6 +127,7 @@ footer {
   padding: 2%;
   border-top: solid;
   background: rgba(94, 67, 67, 0.4);
+  border-width: thin;
 }
 
 #signUp form {
