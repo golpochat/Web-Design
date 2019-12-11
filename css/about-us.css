@@ -51,9 +51,10 @@
   transition: 0.4s ease-in-out;
 }
 
-/*---------------Responsive body design for small and medium devices-----------------------*/
+/*--Responsive body design for small and medium devices--*/
 
 @media screen and (max-width: 1048px) {
+  /*summary not used in html for about-us*/
   .summary {
     font-size: 15px;
   }
@@ -65,6 +66,7 @@
   .transbox {
     margin: 10px;
   }
+   /*reviews not used in html for about-us*/
   .reviews h3 {
     font-weight: 100;
     text-align: left;
