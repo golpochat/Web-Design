@@ -145,6 +145,8 @@ header h1 {
 @media screen and (max-width: 1048px) {
   .summary {
     font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .box {
     flex-direction: column;
@@ -155,9 +157,10 @@ header h1 {
     margin: 10px;
   }
   .transbox img {
-    padding-left: 40px;
+    padding-left: 50px;
+    padding-bottom: 10px;
   }
-  .reviews h1 {
+  .reviews h2 {
     text-align: center;
   }
   .reviews h3 {
@@ -167,6 +170,6 @@ header h1 {
     padding-right: 10px;
   }
   #myBtn {
-    margin-left: 55px;
+    text-align: center;
   }
 }
