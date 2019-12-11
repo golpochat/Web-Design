@@ -1,7 +1,6 @@
 /*styling for the book images*/
 .book {
   width: 100%;
-  
   margin-bottom: 30px;
   margin-bottom: 2px;
   border-radius: 6px;
@@ -187,7 +186,7 @@
 @media only screen and (min-width: 1200px) {
   .book-holder {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 30px auto;
     float: none;
     display: flex;
   }
