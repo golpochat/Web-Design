@@ -85,11 +85,6 @@ header h1 {
   display: none;
 }
 
-/* Note from Gearoid this is what makes your title different from global */
-p {
-  font-weight: 100;
-}
-
 /* design for purchase button group */
 
 .buybooks p {
