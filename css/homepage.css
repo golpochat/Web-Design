@@ -269,7 +269,7 @@ Designed by : Sujan Hossain
         width: 100%;
         margin: 25px auto;
         overflow: hidden;
-        margin-top: 190px;
+        /* margin-top: 190px; */
     }
     /* image */
     .nobber-image img {
