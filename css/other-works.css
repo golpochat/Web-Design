@@ -30,7 +30,7 @@
   display: none;
 }
 
-.phone-list ul img{
+.phone-list ul img {
   height: 30px;
   width: 80px;
   padding: 1px;
@@ -39,7 +39,7 @@
 .phone-list li {
   list-style-type: none;
   display: inline-block;
-} 
+}
 
 /* phone modal start */
 /*modal settings */
@@ -68,11 +68,11 @@
   animation-name: modalopen;
   animation-duration: 1s;
 }
-.modal-content p{
+.modal-content p {
   padding-top: 20px;
   padding-bottom: 25px;
 }
-.modal-content ul{
+.modal-content ul {
   vertical-align: bottom;
 }
 
@@ -165,7 +165,9 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     transition-duration: 0.4s;
   }
-  .flex-2 a:hover, .flex-2 a:focus, .flex-2 a:active {
+  .flex-2 a:hover,
+  .flex-2 a:focus,
+  .flex-2 a:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   }
 
@@ -174,11 +176,11 @@
     text-align: right;
   }
 
-  .tablet-list img{
+  .tablet-list img {
     width: 100px;
     height: 40px;
   }
-  .modal-content{
+  .modal-content {
     display: none;
   }
 }
