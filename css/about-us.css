@@ -1,6 +1,11 @@
+.brandname {
+  color: white;
+}
 
 .transbox {
-  margin: 80px;
+  margin: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
   background-color: rgba(240, 240, 240, 0.3);
   border: 0.1px grey;
   font-family: "Barlow Condensed", sans-serif;
@@ -26,7 +31,7 @@
 }
 
 .bio p{
-  font-size: 23px;
+  font-size: 22px;
   padding: 20px;
   font-weight: 100;
 }
