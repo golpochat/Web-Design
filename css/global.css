@@ -43,10 +43,11 @@ body {
 
 .forscrolling {
     /* background: #92a09a; */
+    width: 100%;
+    height: 40px;
     position: fixed;
     top: 0px;
-    padding: 10px 0;
-    width: 100%;
+    /* padding: 10px 0; */
     background-color: rgb(180, 42, 42);
     z-index: 2;
 }
@@ -55,7 +56,7 @@ body {
 /* ul item for navigation menu */
 
 ul {
-    padding: 20px 0;
+    padding: 8px 0;
 }
 
 
@@ -96,11 +97,11 @@ ul {
 /* design for brand name or logo */
 
 .brandname {
-    margin: 20px 0;
+    /* margin: 20px 0; */
     width: 100%;
     text-align: center;
     color: black;
-    line-height: 0px;
+    /* line-height: 0px; */
 }
 
 
@@ -127,21 +128,22 @@ ul {
 /* footer */
 
 .footer {
-    margin: 0;
-    padding: 0;
     width: 100%;
     text-align: center;
-    display: block;
-    float: left;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 12px;
+    margin-top: 10px;
 }
 
 footer {
     text-align: center;
-    padding: 2%;
-    border-top: solid;
-    background: rgba(94, 67, 67, 0.4);
+    padding: 10px 0;
+    background-color: rgb(180, 42, 42);
+}
+
+footer h3,
+#my-form {
+    text-align: center;
+    color: white;
 }
 
 #signUp form {
@@ -149,11 +151,7 @@ footer {
     padding-top: 20px;
 }
 
-.footer a {
-    color: white;
-}
-
-.copyright {
+footer a {
     color: white;
 }
 
@@ -162,9 +160,9 @@ footer {
 
 .copyright {
     width: 100%;
+    color: white;
     text-align: center;
-    font-size: 10px;
-    font-weight: 300;
+    font-size: 12px;
 }
 
 

@@ -13,7 +13,7 @@ Designed by : Sujan Hossain
     overflow: hidden;
     /* border: 2px solid white; */
     background-color: rgba(46, 229, 157, 0.1);
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 
@@ -22,7 +22,7 @@ Designed by : Sujan Hossain
 .nobber-image img {
     width: 60%;
     /* height: auto; */
-    height: 550px;
+    height: 600px;
     text-align: center;
     margin: 0;
     padding: 0;
