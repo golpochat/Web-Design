@@ -1,28 +1,15 @@
-a {
-  text-decoration: none;
-}
-
-/* Note from gearoid this is why your title is different than the others */
-p {
-  font-weight: normal;
-}
-
-.wrapper {
-  width: 100%;
-  align-content: center;
-}
-
+/*styling for the book images*/
 .book {
-  width: 90%;
-  margin-left: 20px;
+  width: 100%;
+  
   margin-bottom: 30px;
   margin-bottom: 2px;
   border-radius: 6px;
 }
-
+/*styling the button that appears on the small screen view*/
 .phone-btn {
   display: block;
-  width: 90%;
+  width: 85%;
   margin: auto;
   padding: 10px;
   background-color: rgb(59, 55, 55);
@@ -31,9 +18,6 @@ p {
   position: relative;
 }
 
-.btn:active {
-  background-color: rgb(115, 122, 115);
-}
 .flex-1 {
   align-content: center;
   margin: 20px 0 auto;
@@ -41,20 +25,22 @@ p {
 
 .flex-2 {
   display: none;
-  margin: 20px 0 auto;
-}
-.flex-2 ul {
-  bottom: 0;
 }
 
 .tab-button {
   display: none;
 }
 
-/*.phone-list li {
+.phone-list ul img{
+  height: 30px;
+  width: 80px;
+  padding: 1px;
+}
+
+.phone-list li {
   list-style-type: none;
   display: inline-block;
-} */
+} 
 
 /* phone modal start */
 /*modal settings */
@@ -71,15 +57,24 @@ p {
 }
 /*modal content*/
 .modal-content {
-  background-color: lightgrey;
-  margin: 10% auto;
+  display: block;
+  background-color: rgba(221, 69, 68, 0.8);
+  margin: 20% auto;
   padding: 20px;
   width: 80%;
   height: 80%;
+  max-width: 300px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   /*animation*/
   animation-name: modalopen;
   animation-duration: 1s;
+}
+.modal-content p{
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.modal-content ul{
+  vertical-align: bottom;
 }
 
 /* modal close button */
@@ -128,8 +123,7 @@ p {
   .book-holder {
     display: flex;
     padding: 20px;
-    margin: 10px;
-    align-content: left;
+    background-color: rgba(240, 240, 240, 0.3);
   }
 
   .flex-1 {
@@ -142,7 +136,7 @@ p {
     flex: 1;
     justify-content: space-between;
     flex-direction: column;
-    height: 100hv;
+    margin: 20px 0 auto;
   }
 
   .flex-2 h2 {
@@ -156,7 +150,6 @@ p {
     text-align: left;
     font-size: 1.2em;
   }
-
   .flex-2 ul {
     margin-top: 20px;
     float: right;
@@ -173,15 +166,21 @@ p {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     transition-duration: 0.4s;
   }
-  .flex-2 a:hover,
-  .flex-2 a:focus,
-  .flex-2 a:active {
+  .flex-2 a:hover, .flex-2 a:focus, .flex-2 a:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   }
 
   .review p:nth-child(2),
   .review p:nth-child(4) {
     text-align: right;
+  }
+
+  .tablet-list img{
+    width: 100px;
+    height: 40px;
+  }
+  .modal-content{
+    display: none;
   }
 }
 /*Computer view*/
@@ -191,6 +190,9 @@ p {
     margin: 0 auto;
     float: none;
     display: flex;
-    align-content: left;
+  }
+  .book {
+    width: 75%;
+    margin-left: 40px;
   }
 }

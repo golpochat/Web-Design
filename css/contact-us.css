@@ -68,4 +68,8 @@ main button {
   .mediumInput {
     grid-column: 1/4;
   }
+  main button {
+    width: 95%;
+    grid-gap: 0px;
+  }
 }
