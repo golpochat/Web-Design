@@ -14,25 +14,26 @@
   padding: 70px;
 }
 
-.bio h2{
+.bio h2 {
   text-align: center;
   font-size: 35px;
 }
 
-.bio img{
+.bio img {
   float: right;
   width: 30%;
   height: auto;
   margin: 20px;
 }
 
-.bio p{
+.bio p {
   font-size: 22px;
   padding: 20px;
   font-weight: 100;
 }
 
-.bio a:link, .bio a:visited {
+.bio a:link,
+.bio a:visited {
   background-color: #f44336;
   color: white;
   padding: 14px 25px;
@@ -41,7 +42,8 @@
   display: inline-block;
 }
 
-.bio a:hover, .bio a:active {
+.bio a:hover,
+.bio a:active {
   background-color: red;
   transition: 0.4s ease-in-out;
 }
@@ -60,3 +62,4 @@
   .transbox {
     margin: 10px;
   }
+}
