@@ -84,8 +84,8 @@ p {
 /* hover design for navigaiton menu item */
 
 .navbar a:hover {
-    color: tomato;
-    transition: all 0.2s ease-in-out;
+    color: rgba(94, 67, 67, 1);
+    transition: all 0.3s ease-in;
 }
 
 
