@@ -8,7 +8,7 @@ Designed by : Sujan Hossain
 /* Review section */
 
 .img-and-review {
-    width: 95%;
+    width: 80%;
     overflow: hidden;
     margin-top: 10px;
 }
@@ -17,7 +17,7 @@ Designed by : Sujan Hossain
 /* book image */
 
 .nobber-image img {
-    width: 60%;
+    width: 50%;
     height: 450px;
     text-align: center;
     margin: 0;
@@ -64,7 +64,7 @@ Designed by : Sujan Hossain
 /* carosel items for review */
 
 .owl-carousel {
-    width: 39%;
+    width: 49%;
     height: auto;
     margin-top: 14%;
     overflow: auto;
