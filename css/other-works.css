@@ -186,13 +186,25 @@
     text-align: right;
   }
 
-  .tablet-list img {
-    width: 100px;
-    height: 40px;
-  }
   .modal-content {
     display: none;
   }
+  .tablet-list{
+    text-align: center;
+    margin: 20px 0;
+  }
+  .tablet-list a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 14px 25px;
+    background-color: #faf7f7;
+    color: black;
+  }
+  .tablet-list a:hover {
+    color: #faf7f7;
+    background-color: rgba(94, 67, 67, 0.5);
+}
 }
 /*Computer view*/
 @media only screen and (min-width: 1200px) {
