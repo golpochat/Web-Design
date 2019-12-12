@@ -70,10 +70,13 @@
   animation-name: modalopen;
   animation-duration: 1s;
 }
+.modal-content h2{
+  font-size: 30px;
+}
 .modal-content p {
-  padding-top: 20px;
-  padding-bottom: 25px;
-  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
 }
 .modal-content ul {
   vertical-align: bottom;
@@ -104,6 +107,7 @@
     opacity: 1;
   }
 }
+
 
 /*Removes review class when things get too packed*/
 @media only screen and (max-width: 928px) {
