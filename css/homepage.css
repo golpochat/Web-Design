@@ -136,6 +136,7 @@ section {
 .button {
     background-color: #faf7f7;
     color: black;
+    transition-duration: 0.4s;
     /* display: inline-block; */
 }
 
