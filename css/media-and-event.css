@@ -9,6 +9,10 @@
   text-align: center;
   font-size: 22px;
 }
+#events p {
+  font-size: 13px;
+  font-weight: 600;
+}
 
 #more {
   display: none;
@@ -20,7 +24,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  padding: 4%;
+  padding: 50px 9% 50px 9%;
 }
 
 .grid-container > section {
@@ -47,8 +51,13 @@ iframe {
   height: 300px;
   border: none;
 }
-
-@media only screen and (max-width: 700px) {
+/* 840 */
+@media only screen and (max-width: 950px) {
+  .grid-container {
+    padding: 5%;
+  }
+}
+@media only screen and (max-width: 840px) {
   #events {
     grid-column: 1 / 6;
   }
