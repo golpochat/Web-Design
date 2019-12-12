@@ -36,7 +36,6 @@
 
 #media {
   grid-column: 1 / 5;
-  height: 550px;
 }
 #events {
   grid-column: 5;
