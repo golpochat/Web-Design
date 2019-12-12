@@ -104,10 +104,12 @@ section {
 }
 
 .buynow h3 {
-  padding: 10px;
-  font-size: 30px;
-  font-weight: 200;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
 }
+
 
 /* text for purchase button */
 
@@ -150,6 +152,11 @@ section {
 
 
 /* end of button design */
+
+hr {
+    width: 26%;
+    margin: 4px auto;
+}
 
 
 /*--------------- Responsive design of homepage for small & medium devices ------------*/
