@@ -1,4 +1,4 @@
-/* 
+/*
 This CSS design for global style of Homepage only.
 Designed by : Sujan Hossain
         SID : X19170602
@@ -103,6 +103,11 @@ section {
     margin: 20px 0;
 }
 
+.buynow h3 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 200;
+}
 
 /* text for purchase button */
 
