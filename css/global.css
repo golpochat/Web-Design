@@ -214,7 +214,7 @@ footer {
         letter-spacing: 5px;
         width: 70%;
         text-align: left;
-        /* text-transform: uppercase; */
+        text-transform: uppercase;
     }
     .book-section {
         margin-top: 80px;
