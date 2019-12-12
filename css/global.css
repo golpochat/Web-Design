@@ -39,7 +39,7 @@ body {
 }
 
 
-/* Sticky navigation color */
+/* Sticky navigation */
 
 .forscrolling {
     /* background: #92a09a; */
@@ -186,16 +186,18 @@ footer {
         display: none;
         position: fixed;
         top: 60px;
-        width: 100%;
+        /* width: 100%; */
         background-color: rgb(221, 69, 68);
         z-index: 2;
         /* margin-top: 40px; */
     }
     .navbar .fa-bars {
+        float: left;
         margin: 20px;
+        width: 10%;
     }
     .toggle {
-        font-size: 30px;
+        font-size: 36px;
         text-align: left;
         color: white;
         display: block;
@@ -206,20 +208,33 @@ footer {
         z-index: 2;
         /* margin-bottom: 5px; */
     }
-    .menu:hover {
-        background-color: black;
-        transition: all 0.2s ease-in;
+    .nobber {
+        float: right;
+        margin: auto;
+        letter-spacing: 5px;
+        width: 70%;
+        text-align: left;
+        /* text-transform: uppercase; */
+    }
+    .book-section {
+        margin-top: 80px;
     }
     .navbar li {
         float: none;
         display: block;
-        margin-left: 20px;
+        margin: 5px 20px;
     }
     .active {
         display: block;
         float: none;
         margin-top: -5px;
         text-align: left;
+    }
+    .forscrolling {
+        top: 64px;
+        width: auto;
+        background-color: rgb(221, 69, 68);
+        z-index: 2;
     }
 }
 
