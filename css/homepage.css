@@ -10,9 +10,9 @@ Designed by : Sujan Hossain
 .img-and-review {
     width: 80%;
     overflow: hidden;
-    margin-top: 10px;
     /*Daniel:*/
     max-width: 1100px;
+    margin: 80px auto;
     /*Daniel*/
 }
 
