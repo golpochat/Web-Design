@@ -40,7 +40,8 @@ header h1 {
 .summary h2 {
   text-align: left;
   font-weight: 100;
-  padding: 10px 50px 10px 10px;
+  /*Daniel: changed the padding top from 10px to 50px*/
+  padding: 50px 50px 10px 10px;
 }
 
 .summary p {
