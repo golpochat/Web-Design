@@ -1,8 +1,6 @@
 /* 
 This JS file for global style of Navigatiion bar & footer.
 
-Designed by : Sujan Hossain
-        SID : X19170602
 */
 
 jQuery(document).ready(function() {
@@ -17,14 +15,10 @@ jQuery(document).ready(function() {
     if (screen.width >= 760) {
       if (top >= 100) {
         $(".menus").addClass("forscrolling");
-        // alert("i m 1");
       } else if ($(".menus").hasClass("forscrolling") && top < 80) {
         $(".menus").removeClass("forscrolling");
-        // alert("i m 2");
       }
-      // alert(screen.width);
     }
-    // alert(screen.width);
   });
 });
 
