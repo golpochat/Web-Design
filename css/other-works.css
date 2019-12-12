@@ -116,7 +116,7 @@
 }
 
 /* Tablet view */
-@media only screen and (min-width: 610px) {
+@media only screen and (min-width: 700px) {
   .book {
     display: flex;
   }
@@ -128,7 +128,7 @@
   .book-holder {
     display: flex;
     padding: 20px;
-    margin: 50px auto;
+    margin: 50px 2%;
     background-color: rgba(240, 240, 240, 0.15);
   }
 
@@ -221,6 +221,7 @@
   .book-holder {
     max-width: 1100px;
     display: flex;
+    margin: 50px auto;
   }
   .book {
     width: 90%;
