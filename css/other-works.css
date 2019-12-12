@@ -145,10 +145,12 @@
     display: flex;
   }
 
+/*removes styling for the more details button from phone view*/
   .phone-btn {
     display: none;
   }
 
+/*styling for the container of both the book image and the details/buy buttons of each book*/
   .book-holder {
     display: flex;
     padding: 20px;
@@ -156,11 +158,13 @@
     background-color: rgba(240, 240, 240, 0.15);
   }
 
+/*styling for the book image on bigger screens*/
   .flex-1 {
     display: flex;
     flex: 1;
   }
 
+/*styling for the book details on bigger screens*/
   .flex-2 {
     display: flex;
     flex: 1;
@@ -169,28 +173,32 @@
     margin-top: 25px;
     margin-right: 60px;
   }
-
+/*styling for the book details h2 tags on bigger screens*/
   .flex-2 h2 {
     padding: 5px 5px 15px;
     text-align: left;
     font-size: 2.5em;
   }
-
+/*styling for the book details p tags on bigger screens*/
   .flex-2 p {
     padding: 5px;
     text-align: left;
     font-size: 1.2em;
     font-weight: 100;
   }
+
+  /*styling for the book details list on bigger screens*/
   .flex-2 ul {
     margin-top: 20px;
     float: right;
   }
 
+  /*styling for the book details list items on bigger screens*/
   .flex-2 li {
     list-style-type: none;
     display: inline;
   }
+  /*styling for the book details list links on bigger screens*/
 
   .flex-2 a {
     display: inline-block;
@@ -199,24 +207,30 @@
     transition-duration: 0.4s;
   }
 
+  /*styling for the book details link actions on bigger screens*/
   .flex-2 a:hover,
   .flex-2 a:focus,
   .flex-2 a:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   }
 
+  /*setting the 'reviewed by' paragraphs to the right for styling*/
   .review p:nth-child(2),
   .review p:nth-child(4) {
     text-align: right;
   }
 
+  /*removing the modal content on bigger screens*/
   .modal-content {
     display: none;
   }
+
+  /*styling for list on tablet+ screens*/
   .tablet-list{
     text-align: center;
     margin: 20px 0;
   }
+/*styling for list links on tablet+ screens*/
   .tablet-list a{
     text-decoration: none;
     font-size: 22px;
@@ -225,12 +239,14 @@
     background-color: #faf7f7;
     color: black;
   }
+/*styling for list link actions on tablet+ screens*/
   .tablet-list a:hover {
     color: #faf7f7;
     background-color: rgba(94, 67, 67, 0.5);
-}
+  }
 }
 
+/*styling to resize list and p at this size*/
 @media only screen and (max-width: 770px) {
   .tablet-list a{
     padding: 5px;
@@ -240,13 +256,17 @@
     padding: 0px;
   }
 }
+
 /*Computer view*/
 @media only screen and (min-width: 1200px) {
+  /*styling for container at big screen size*/
   .book-holder {
     max-width: 1100px;
     display: flex;
     margin: 50px auto;
   }
+  
+  /*styling for book image on big screen*/
   .book {
     width: 90%;
     height: 100%;
