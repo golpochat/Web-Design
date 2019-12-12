@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <link rel="icon" type="image/png" href="img/favicon.ico" />
     <!-- font awesome for toggle bar -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
 
     <!-- Google fonts -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" />
 
     <!-- Global Css for Each page -->
     <link rel="stylesheet" href="css/normalize.css" />
@@ -24,139 +19,80 @@
     <!-- Indivual Css for Each Page-->
     <link rel="stylesheet" href="css/contact-us.css" />
     <title>Contact Us</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <nav class="navbar">
-      <div class="container">
-        <!-- logo/brand name -->
-        <div class="brandname">
-          <h1>Nobber</h1>
-          <p>A new novel by Oisín Fagan</p>
-        </div>
-        <!-- font awesome toggle icon -->
-        <div class="toggle">
-          <i class="fas fa-bars menu"></i>
-        </div>
+        <div class="container">
+            <!-- logo/brand name -->
+            <div class="brandname">
+                <h1>Nobber</h1>
+                <p>A new novel by Oisín Fagan</p>
+            </div>
+            <!-- font awesome toggle icon -->
+            <div class="toggle">
+                <i class="fas fa-bars menu"></i>
+                <h2 class="nobber">Nobber</h2>
+            </div>
 
-        <ul class="menus">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="nobber.html">Nobber</a>
-          </li>
-          <li>
-            <a href="other-works.html">Other Work</a>
-          </li>
-          <li>
-            <a href="about-us.html">About</a>
-          </li>
-          <li>
-            <a href="media-and-events.html">Media & Events</a>
-          </li>
-          <li>
-            <a href="contact-us.html">Contact Us</a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/j_m_originals?lang=en"
-              class="fab fa-twitter"
-            ></a>
-            <a
-              href="https://www.instagram.com/johnmurrays/"
-              class="fab fa-instagram"
-            ></a>
-            <a
-              href="https://www.facebook.com/muse/"
-              class="fab fa-facebook"
-            ></a>
-          </li>
-        </ul>
-      </div>
+            <ul class="menus">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="nobber.html">Nobber</a>
+                </li>
+                <li>
+                    <a href="other-works.html">Other Work</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About</a>
+                </li>
+                <li>
+                    <a href="media-and-events.html">Media & Events</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/j_m_originals?lang=en" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/johnmurrays/" class="fab fa-instagram"></a>
+                    <a href="https://www.facebook.com/muse/" class="fab fa-facebook"></a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <main class="grid-container">
-      <header><h2>Contact Us</h2></header>
-      <form
-        id="contact-form"
-        action="https://formspree.io/mqkakjeq"
-        method="POST"
-      >
-        <input
-          name="First-Name"
-          id="input_1_1"
-          type="text"
-          class="mediumInput"
-          placeholder="First Name*"
-          required
-        />
-        <input
-          name="Last-Name"
-          id="input_1_2"
-          type="text"
-          class="mediumInput"
-          placeholder="Last Name*"
-          required
-        />
-        <input
-          name="Email"
-          id="input_1_3"
-          type="email"
-          class="mediumInput"
-          placeholder="Email*"
-          required
-        />
-        <input
-          name="Phone-Number"
-          id="input_1_4"
-          type="tel"
-          class="mediumInput"
-          placeholder="Phone Number"
-        />
-        <input
-          name="Website"
-          id="input_1_5"
-          type="url"
-          class="mediumInput"
-          placeholder="Website"
-        />
-        <input
-          name="Company"
-          id="input_1_6"
-          type="text"
-          class="mediumInput"
-          placeholder="Company"
-        />
-        <textarea
-          name="Comment"
-          id="input_1_7"
-          class="textAreaMedium"
-          placeholder="What can we do for you?"
-          aria-invalid="false"
-          rows="10"
-          cols="50"
-        ></textarea>
-        <button id="contact-form-button" class="mediumInput">Send it</button>
-        <p id="contact-form-status"></p>
-      </form>
+        <header>
+            <h2>Contact Us</h2>
+        </header>
+        <form id="contact-form" action="https://formspree.io/mqkakjeq" method="POST">
+            <input name="First-Name" id="input_1_1" type="text" class="mediumInput" placeholder="First Name*" required />
+            <input name="Last-Name" id="input_1_2" type="text" class="mediumInput" placeholder="Last Name*" required />
+            <input name="Email" id="input_1_3" type="email" class="mediumInput" placeholder="Email*" required />
+            <input name="Phone-Number" id="input_1_4" type="tel" class="mediumInput" placeholder="Phone Number" />
+            <input name="Website" id="input_1_5" type="url" class="mediumInput" placeholder="Website" />
+            <input name="Company" id="input_1_6" type="text" class="mediumInput" placeholder="Company" />
+            <textarea name="Comment" id="input_1_7" class="textAreaMedium" placeholder="What can we do for you?" aria-invalid="false" rows="10" cols="50"></textarea>
+            <button id="contact-form-button" class="mediumInput">Send it</button>
+            <p id="contact-form-status"></p>
+        </form>
     </main>
 
     <footer>
-      <section id="signUp">
-        <h3>
-          Sign up to our mailing list for updates, events, and more
-        </h3>
-        <form id="my-form" action="https://formspree.io/mqkakjeq" method="POST">
-          <label>Email:</label>
-          <input type="email" name="email" placeholder="Email Address" />
-          <button id="my-form-button">Submit</button>
-          <p id="my-form-status"></p>
-        </form>
-        <div class="footer">
-          <a
-            href="https://www.johnmurraypress.co.uk/imprint/jmpd/john-murray/page/privacy-notice-holder-jmp/"
-            >Privacy policy</a
+        <section id="signUp">
+            <h3>
+                Sign up to our mailing list for updates, events, and more
+            </h3>
+            <form id="my-form" action="https://formspree.io/mqkakjeq" method="POST">
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Email Address" />
+                <button id="my-form-button">Submit</button>
+                <p id="my-form-status"></p>
+            </form>
+            <div class="footer">
+                <a href="https://www.johnmurraypress.co.uk/imprint/jmpd/john-murray/page/privacy-notice-holder-jmp/">Privacy policy</a
           >
           <a
             href="https://www.johnmurraypress.co.uk/landing-page/terms-and-conditions-all/"

@@ -32,15 +32,26 @@
   display: none;
 }
 
-.phone-list ul img {
-  height: 30px;
-  width: 80px;
-  padding: 1px;
+.phone-list ul{
+  display: block;
 }
-
-.phone-list li {
+.phone-list li{
+  text-align: center;
+  margin: 20px 0;
   list-style-type: none;
+  margin: 1px;
+}
+.phone-list a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 14px 25px;
   display: inline-block;
+  width: 80%;
+  margin: 7px auto;
+  background-color: #faf7f7;
+  color: black;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
 /* phone modal start */
@@ -75,7 +86,8 @@
 }
 .modal-content p {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 18px;
 }
 .modal-content ul {
