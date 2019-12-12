@@ -35,12 +35,13 @@ header h1 {
   opacity: 1;
 }
 
-.summary h1 {
+.summary h2 {
   font-size: 40px;
 }
 
-.summary h2 {
+.summary h3 {
   text-align: left;
+  font-size: 21px;
   font-weight: 100;
   padding: 30px 50px 10px 10px;
 }
