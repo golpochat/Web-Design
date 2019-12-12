@@ -93,9 +93,9 @@ header h1 {
 /* design for purchase button group */
 
 .buynow {
-    text-align: center;
-    margin: 20px 0;
-    padding-bottom: 40px;
+  text-align: center;
+  margin: 20px 0;
+  padding-bottom: 40px;
 }
 
 .buynow h3 {
@@ -107,42 +107,37 @@ header h1 {
 /* text for purchase button */
 
 .buynow a {
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: normal;
-    /* line-height: 40px; */
-    padding: 14px 25px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: normal;
+  /* line-height: 40px; */
+  padding: 14px 25px;
 }
-
 
 /* text for purchase header */
 
 .buynow h3 {
-    margin: 24px auto;
-    color: white;
+  margin: 24px auto;
+  color: white;
 }
 
-
 /* start of button design*/
-
 
 /* button for purchase link */
 
 .button {
-    background-color: #faf7f7;
-    color: black;
-    transition-duration: 0.4s;
-    /* display: inline-block; */
+  background-color: #faf7f7;
+  color: black;
+  transition-duration: 0.4s;
+  /* display: inline-block; */
 }
-
 
 /* hover for button */
 
 .buynow a:hover {
-    color: #faf7f7;
-    background-color: rgba(94, 67, 67, 0.5);
+  color: #faf7f7;
+  background-color: rgba(94, 67, 67, 0.5);
 }
-
 
 /* end of button design */
 
@@ -173,24 +168,24 @@ header h1 {
   }
   /* button for purchase link */
   .buynow a {
-      text-decoration: none;
-      font-size: 22px;
-      font-weight: normal;
-      padding: 14px 25px;
-      display: inline-block;
-      width: 80%;
-      margin: 7px auto;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 14px 25px;
+    display: inline-block;
+    width: 80%;
+    margin: 7px auto;
   }
   /* start of button design*/
   .button {
-      background-color: #faf7f7;
-      color: black;
-      display: inline-block;
+    background-color: #faf7f7;
+    color: black;
+    display: inline-block;
   }
   /* hover for button */
   .buynow a:hover {
-      color: #faf7f7;
-      background-color: rgba(94, 67, 67, 0.5);
+    color: #faf7f7;
+    background-color: rgba(94, 67, 67, 0.5);
   }
   .reviews h2 {
     text-align: center;
