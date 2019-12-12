@@ -1,10 +1,12 @@
+/* Header design */
+
 header h1 {
   font-size: 50px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-/* box sections */
+/* Design for box sections */
 
 .transbox {
   width: 80%;
@@ -40,7 +42,6 @@ header h1 {
 .summary h2 {
   text-align: left;
   font-weight: 100;
-  /*Daniel: changed the padding top from 10px to 50px*/
   padding: 30px 50px 10px 10px;
 }
 
@@ -67,6 +68,8 @@ header h1 {
   text-align: left;
   padding: 10px 100px 10px 100px;
 }
+
+/* Design for More button */
 
 #myBtn {
   margin-top: 10px;
@@ -120,15 +123,12 @@ header h1 {
   color: white;
 }
 
-/* start of button design*/
-
 /* button for purchase link */
 
 .button {
   background-color: #faf7f7;
   color: black;
   transition-duration: 0.4s;
-  /* display: inline-block; */
 }
 
 /* hover for button */
@@ -145,7 +145,8 @@ header h1 {
 
 /*---------------Responsive body design for small and medium devices-----------------------*/
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1048px) {
+  /* box sections */
   .summary h1 {
     font-size: 30px;
   }
@@ -178,7 +179,6 @@ header h1 {
     width: 80%;
     margin: 7px auto;
   }
-  /* start of button design*/
   .button {
     background-color: #faf7f7;
     color: black;
@@ -189,6 +189,7 @@ header h1 {
     color: #faf7f7;
     background-color: rgba(94, 67, 67, 0.5);
   }
+  /* Design for reviews */
   .reviews h2 {
     text-align: center;
     padding-right: 95px;
@@ -199,6 +200,7 @@ header h1 {
     padding-left: 10px;
     padding-right: 10px;
   }
+  /* More button */
   #myBtn {
     text-align: center;
     margin-right: auto;
