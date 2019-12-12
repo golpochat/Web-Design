@@ -139,8 +139,8 @@ header h1 {
   background-color: rgba(94, 67, 67, 0.5);
 }
 #button-more {
-  width: 100%;
-  text-align: center;
+  margin-left: 100px;
+  text-align: left;
 }
 /* end of button design */
 
@@ -205,5 +205,10 @@ header h1 {
   #myBtn {
     text-align: center;
     margin-right: auto;
+  }
+  #button-more {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
   }
 }
