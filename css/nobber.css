@@ -1,10 +1,12 @@
+/* Header design */
+
 header h1 {
   font-size: 50px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-/* box sections */
+/* Design for box sections */
 
 .transbox {
   width: 80%;
@@ -40,7 +42,6 @@ header h1 {
 .summary h2 {
   text-align: left;
   font-weight: 100;
-  /*Daniel: changed the padding top from 10px to 50px*/
   padding: 30px 50px 10px 10px;
 }
 
@@ -68,8 +69,9 @@ header h1 {
   padding: 10px 100px 10px 100px;
 }
 
+/* Design for More button */
+
 #myBtn {
-  margin-left: 100px;
   margin-top: 10px;
   font-weight: 100;
   text-align: left;
@@ -93,9 +95,9 @@ header h1 {
 /* design for purchase button group */
 
 .buynow {
-    text-align: center;
-    margin: 20px 0;
-    padding-bottom: 40px;
+  text-align: center;
+  margin: 20px 0;
+  padding-bottom: 40px;
 }
 
 .buynow h3 {
@@ -107,48 +109,44 @@ header h1 {
 /* text for purchase button */
 
 .buynow a {
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: normal;
-    /* line-height: 40px; */
-    padding: 14px 25px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: normal;
+  /* line-height: 40px; */
+  padding: 14px 25px;
 }
-
 
 /* text for purchase header */
 
 .buynow h3 {
-    margin: 24px auto;
-    color: white;
+  margin: 24px auto;
+  color: white;
 }
-
-
-/* start of button design*/
-
 
 /* button for purchase link */
 
 .button {
-    background-color: #faf7f7;
-    color: black;
-    transition-duration: 0.4s;
-    /* display: inline-block; */
+  background-color: #faf7f7;
+  color: black;
+  transition-duration: 0.4s;
 }
-
 
 /* hover for button */
 
 .buynow a:hover {
-    color: #faf7f7;
-    background-color: rgba(94, 67, 67, 0.5);
+  color: #faf7f7;
+  background-color: rgba(94, 67, 67, 0.5);
 }
-
-
+#button-more {
+  width: 100%;
+  text-align: center;
+}
 /* end of button design */
 
 /*---------------Responsive body design for small and medium devices-----------------------*/
 
 @media screen and (max-width: 1048px) {
+  /* box sections */
   .summary h1 {
     font-size: 30px;
   }
@@ -173,25 +171,25 @@ header h1 {
   }
   /* button for purchase link */
   .buynow a {
-      text-decoration: none;
-      font-size: 22px;
-      font-weight: normal;
-      padding: 14px 25px;
-      display: inline-block;
-      width: 80%;
-      margin: 7px auto;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 14px 25px;
+    display: inline-block;
+    width: 80%;
+    margin: 7px auto;
   }
-  /* start of button design*/
   .button {
-      background-color: #faf7f7;
-      color: black;
-      display: inline-block;
+    background-color: #faf7f7;
+    color: black;
+    display: inline-block;
   }
   /* hover for button */
   .buynow a:hover {
-      color: #faf7f7;
-      background-color: rgba(94, 67, 67, 0.5);
+    color: #faf7f7;
+    background-color: rgba(94, 67, 67, 0.5);
   }
+  /* Design for reviews */
   .reviews h2 {
     text-align: center;
     padding-right: 95px;
@@ -202,8 +200,8 @@ header h1 {
     padding-left: 10px;
     padding-right: 10px;
   }
+  /* More button */
   #myBtn {
-    margin-left: 15%;
     text-align: center;
     margin-right: auto;
   }
