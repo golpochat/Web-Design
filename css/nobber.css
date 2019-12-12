@@ -7,7 +7,6 @@ header h1 {
 /* box sections */
 
 .transbox {
-
   width: 80%;
   margin: auto;
   margin-top: 50px;
@@ -156,5 +155,9 @@ header h1 {
   #myBtn {
     margin-left: 12%;
     margin-right: auto;
+  }
+  .buybook a:link,
+  .buybook a:visited {
+    width: 60%;
   }
 }
