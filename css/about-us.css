@@ -1,6 +1,6 @@
 .transbox {
   margin: 50px auto;
-  width: 80%;
+  width: 90%;
   background-color: rgba(240, 240, 240, 0.15);
   border: 0.1px grey;
   font-family: "Barlow Condensed", sans-serif;
@@ -50,7 +50,7 @@
 
 /*---------------Responsive body design for small and medium devices-----------------------*/
 
-@media screen and (max-width: 1048px) {
+@media screen and (max-width: 840px) {
   .summary {
     font-size: 15px;
   }
@@ -60,6 +60,6 @@
     text-align: left;
   }
   .transbox {
-    margin: 10px;
+    margin: 5%;
   }
 }
