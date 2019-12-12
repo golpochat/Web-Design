@@ -7,9 +7,9 @@ header h1 {
 /* box sections */
 
 .transbox {
-  margin: 50px;
-  margin-left: 140px;
-  margin-right: 140px;
+
+  width: 80%;
+  margin: 4% auto;
   background-color: rgba(240, 240, 240, 0.3);
   border: 0.1px grey;
   font-family: "Barlow Condensed", sans-serif;
@@ -117,10 +117,11 @@ header h1 {
 /*---------------Responsive body design for small and medium devices-----------------------*/
 
 @media screen and (max-width: 1048px) {
+  .summary h1 {
+    font-size: 30px;
+  }
   .summary {
     font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .box {
     flex-direction: column;
@@ -128,15 +129,19 @@ header h1 {
     text-align: center;
   }
   .transbox {
-    margin: 10px;
+    width: 95%;
+  }
+  .transbox h2 {
+    padding-right: 5px;
   }
   .transbox img {
     padding-left: 50px;
     padding-bottom: 10px;
-    width: 50%;
+    width: 65%;
   }
   .reviews h2 {
     text-align: center;
+    padding-right: 95px;
   }
   .reviews h3 {
     font-weight: 100;
@@ -145,7 +150,7 @@ header h1 {
     padding-right: 10px;
   }
   #myBtn {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 12%;
+    margin-right: auto;
   }
 }
