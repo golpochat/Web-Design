@@ -145,7 +145,7 @@ header h1 {
 
 /*---------------Responsive body design for small and medium devices-----------------------*/
 
-@media screen and (max-width: 1048px) {
+@media screen and (max-width: 840px) {
   .summary h1 {
     font-size: 30px;
   }
