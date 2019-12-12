@@ -104,10 +104,10 @@ section {
 }
 
 .buynow h3 {
-    padding: 10px;
+    margin: 22px auto;
     font-size: 30px;
-    font-weight: 200;
     font-style: italic;
+    color: white;
 }
 
 
@@ -120,17 +120,6 @@ section {
     /* line-height: 40px; */
     padding: 14px 25px;
 }
-
-
-/* text for purchase header */
-
-.buynow h3 {
-    margin: 24px auto;
-    color: white;
-}
-
-
-/* start of button design*/
 
 
 /* button for purchase link */
