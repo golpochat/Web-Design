@@ -22,8 +22,11 @@
   margin-right: 20%;
 }
 #media-text a {
-  font-size: 18px;
+  font-size: 22px;
   text-decoration: none;
+  color: #e6e6e6
+
+
 }
 
 #more {
