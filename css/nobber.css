@@ -139,8 +139,8 @@ header h1 {
   background-color: rgba(94, 67, 67, 0.5);
 }
 #button-more {
-  margin-left: 100px;
-  text-align: left;
+  width: 100%;
+  text-align: center;
 }
 /* end of button design */
 
@@ -148,7 +148,7 @@ header h1 {
 
 @media screen and (max-width: 1048px) {
   /* box sections */
-  .summary h1 {
+  .summary h2 {
     font-size: 30px;
   }
   .summary {
@@ -162,7 +162,7 @@ header h1 {
   .transbox {
     width: 95%;
   }
-  .transbox h2 {
+  .transbox h3 {
     padding-right: 5px;
   }
   .transbox img {
@@ -205,10 +205,5 @@ header h1 {
   #myBtn {
     text-align: center;
     margin-right: auto;
-  }
-  #button-more {
-    width: 100%;
-    text-align: center;
-    margin-left: 0px;
   }
 }
