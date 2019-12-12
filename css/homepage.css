@@ -115,6 +115,14 @@ section {
 }
 
 
+/* text for purchase header */
+
+.buynow h3 {
+    margin: 24px auto;
+    color: white;
+}
+
+
 /* start of button design*/
 
 
