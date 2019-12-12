@@ -143,10 +143,17 @@ p {
 footer {
     text-align: center;
     padding: 2%;
-    border-top: solid;
-    /* color: white; */
     background: rgba(94, 67, 67, 0.4);
-    border-width: thin;
+    border-top: 1px thin black;
+    color: white;
+}
+
+footer h3 {
+    font-weight: normal;
+}
+
+form {
+    font-weight: normal;
 }
 
 #signUp form {
