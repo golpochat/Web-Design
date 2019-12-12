@@ -21,7 +21,10 @@ Designed by : Sujan Hossain
 
 .nobber-image img {
     width: 50%;
-    height: 450px;
+    /*Daniel to make more responsive:*/
+    height: 60%;
+    /*height: 450px;*/
+    /*Daniel*/
     text-align: center;
     margin: 0;
     padding: 0;
