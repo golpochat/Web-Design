@@ -1,3 +1,5 @@
+// JS for More button
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var more = document.getElementById("more");
