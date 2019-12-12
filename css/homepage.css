@@ -11,6 +11,9 @@ Designed by : Sujan Hossain
     width: 80%;
     overflow: hidden;
     margin-top: 10px;
+    /*Daniel:*/
+    max-width: 1100px;
+    /*Daniel*/
 }
 
 

@@ -37,10 +37,14 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   padding: 50px 9% 50px 9%;
+  /*Daniel:*/
+  max-width: 1100px;
+  margin: auto;
+  /*Daniel*/
 }
 
 .grid-container > section {
-  background-color: rgba(240, 240, 240, 0.3);
+  background-color: rgba(240, 240, 240, 0.15);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
