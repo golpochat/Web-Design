@@ -8,8 +8,7 @@ header h1 {
 
 .transbox {
   width: 80%;
-  margin: auto;
-  margin-top: 50px;
+  margin: 50px auto;
   background-color: rgba(240, 240, 240, 0.15);
   border: 0.1px grey;
   font-family: "Barlow Condensed", sans-serif;
@@ -42,7 +41,7 @@ header h1 {
   text-align: left;
   font-weight: 100;
   /*Daniel: changed the padding top from 10px to 50px*/
-  padding: 10px 50px 10px 10px;
+  padding: 30px 50px 10px 10px;
 }
 
 .summary p {
@@ -76,6 +75,7 @@ header h1 {
   text-align: left;
   padding: 10px 100px 10px 100px;
   font-family: "Barlow Condensed", sans-serif;
+  background-color: #eda49f;
   font-size: 20px;
   border: none;
   cursor: pointer;
@@ -92,28 +92,57 @@ header h1 {
 
 /* design for purchase button group */
 
-.buybook p {
-  font-size: 22px;
-  padding-bottom: 50px;
-  font-weight: 100;
-  text-align: center;
+.buynow {
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 40px;
 }
 
-.buybook a:link,
-.buybook a:visited {
-  background-color: #faf7f7;
-  color: black;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+.buynow h3 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 200;
 }
 
-.buybook a:hover,
-.buybook a:active {
-  background-color: #dbc5c5;
-  transition: 0.4s ease-in-out;
+/* text for purchase button */
+
+.buynow a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+    /* line-height: 40px; */
+    padding: 14px 25px;
 }
+
+
+/* text for purchase header */
+
+.buynow h3 {
+    margin: 24px auto;
+    color: white;
+}
+
+
+/* start of button design*/
+
+
+/* button for purchase link */
+
+.button {
+    background-color: #faf7f7;
+    color: black;
+    transition-duration: 0.4s;
+    /* display: inline-block; */
+}
+
+
+/* hover for button */
+
+.buynow a:hover {
+    color: #faf7f7;
+    background-color: rgba(94, 67, 67, 0.5);
+}
+
 
 /* end of button design */
 
@@ -142,6 +171,27 @@ header h1 {
     padding-bottom: 10px;
     width: 65%;
   }
+  /* button for purchase link */
+  .buynow a {
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: normal;
+      padding: 14px 25px;
+      display: inline-block;
+      width: 80%;
+      margin: 7px auto;
+  }
+  /* start of button design*/
+  .button {
+      background-color: #faf7f7;
+      color: black;
+      display: inline-block;
+  }
+  /* hover for button */
+  .buynow a:hover {
+      color: #faf7f7;
+      background-color: rgba(94, 67, 67, 0.5);
+  }
   .reviews h2 {
     text-align: center;
     padding-right: 95px;
@@ -153,11 +203,8 @@ header h1 {
     padding-right: 10px;
   }
   #myBtn {
-    margin-left: 12%;
+    margin-left: 15%;
+    text-align: center;
     margin-right: auto;
-  }
-  .buybook a:link,
-  .buybook a:visited {
-    width: 60%;
   }
 }
