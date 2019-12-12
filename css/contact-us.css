@@ -58,7 +58,7 @@ main button {
   border: 2px solid #ccc;
   font-size: medium;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 840px) {
   .grid-container > form {
     grid-column: 1/5;
     grid-template-columns: 1fr;
