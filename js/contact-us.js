@@ -9,9 +9,6 @@ window.addEventListener("DOMContentLoaded", function() {
 
   function success() {
     form.reset();
-    //button.style = "display: none ";
-    //status.innerHTML = "Thanks for contacting us";
-    //document.getElementById("contact-form-status").style.padding = "10px";
     Swal.fire({
       title: "Thanks for contacting us!",
       width: 300,

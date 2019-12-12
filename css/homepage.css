@@ -16,6 +16,11 @@ Designed by : Sujan Hossain
     /*Daniel*/
 }
 
+.nobber-image {
+    width: 95%;
+    margin: 20px auto;
+}
+
 
 /* book image */
 
@@ -212,7 +217,7 @@ hr {
         width: 95%;
         margin: 0 auto;
         overflow: hidden;
-        background-color: rgba(46, 229, 157, 0.1);
+        /* background-color: rgba(46, 229, 157, 0.1); */
         margin-top: 50px;
     }
     /* image */
@@ -273,13 +278,13 @@ hr {
     .nobber-image img {
         width: 95%;
         height: auto;
-        margin: 0 auto;
+        margin: 20px auto;
         float: none;
         display: block;
     }
     /* review */
     .owl-carousel {
-        width: 95%;
+        width: 85%;
         height: auto;
         float: none;
         display: block;

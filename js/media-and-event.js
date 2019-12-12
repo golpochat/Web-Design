@@ -1,3 +1,5 @@
+//This function is for the view more button
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
