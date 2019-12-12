@@ -1,9 +1,9 @@
 /*styling for the book images*/
 .book {
   width: 100%;
+  height: 100%;
   margin-bottom: 30px;
   margin-bottom: 2px;
-  border-radius: 6px;
 }
 
 /*styling the button that appears on the small screen view*/
@@ -108,16 +108,15 @@
   }
 }
 
-
 /*Removes review class when things get too packed*/
-@media only screen and (max-width: 928px) {
+@media only screen and (max-width: 1000px) {
   .review {
     display: none;
   }
 }
 
 /* Tablet view */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 610px) {
   .book {
     display: flex;
   }
@@ -175,6 +174,7 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     transition-duration: 0.4s;
   }
+
   .flex-2 a:hover,
   .flex-2 a:focus,
   .flex-2 a:active {
@@ -197,7 +197,7 @@
     text-decoration: none;
     font-size: 22px;
     font-weight: normal;
-    padding: 14px 25px;
+    padding: 14px 15px;
     background-color: #faf7f7;
     color: black;
   }
@@ -206,19 +206,25 @@
     background-color: rgba(94, 67, 67, 0.5);
 }
 }
+
+@media only screen and (max-width: 770px) {
+  .tablet-list a{
+    padding: 5px;
+  }
+  .flex-2 p{
+    font-size: 1em ;
+    padding: 0px;
+  }
+}
 /*Computer view*/
 @media only screen and (min-width: 1200px) {
   .book-holder {
     max-width: 1100px;
-    margin: 50px auto;
-    float: none;
     display: flex;
   }
   .book {
-    width: 75%;
+    width: 90%;
+    height: 100%;
     margin-left: 40px;
-  }
-  .book-holder{
-    padding-right: 20px;
   }
 }
