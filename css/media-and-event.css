@@ -4,6 +4,9 @@
 #Main-doc h2 {
   font-size: 30px;
 }
+#Main-doc h3 {
+  font-size: 25px;
+}
 #Main-doc p {
   padding: 15px;
   text-align: center;
@@ -12,6 +15,15 @@
 #events p {
   font-size: 13px;
   font-weight: 600;
+}
+#media-text p {
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#media-text a {
+  font-size: 18px;
+  text-decoration: none;
 }
 
 #more {
@@ -63,5 +75,9 @@ iframe {
   #media {
     grid-column: 1 / 6;
     height: auto;
+  }
+  #media-text p {
+    text-align: center;
+    margin: 0px;
   }
 }
