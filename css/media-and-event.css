@@ -26,6 +26,9 @@
   text-decoration: none;
   color:  #d9d9d9;
 }
+#media-text a:hover{
+  color:  #f2f2f2;
+}
 
 #more {
   display: none;
