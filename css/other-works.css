@@ -33,12 +33,12 @@
 }
 
 /*styling for the list of links that appear in the modal*/
-.phone-list ul{
+.phone-list ul {
   display: block;
 }
 
 /*styling for the list items*/
-.phone-list li{
+.phone-list li {
   text-align: center;
   margin: 20px 0;
   list-style-type: none;
@@ -81,6 +81,7 @@
   padding: 20px;
   width: 80%;
   height: 80%;
+  overflow: auto;
   max-width: 300px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   /*animation*/
@@ -89,7 +90,7 @@
 }
 
 /*styling for h2 inside the modal box*/
-.modal-content h2{
+.modal-content h2 {
   font-size: 30px;
 }
 
@@ -145,12 +146,12 @@
     display: flex;
   }
 
-/*removes styling for the more details button from phone view*/
+  /*removes styling for the more details button from phone view*/
   .phone-btn {
     display: none;
   }
 
-/*styling for the container of both the book image and the details/buy buttons of each book*/
+  /*styling for the container of both the book image and the details/buy buttons of each book*/
   .book-holder {
     display: flex;
     padding: 20px;
@@ -158,13 +159,13 @@
     background-color: rgba(240, 240, 240, 0.15);
   }
 
-/*styling for the book image on bigger screens*/
+  /*styling for the book image on bigger screens*/
   .flex-1 {
     display: flex;
     flex: 1;
   }
 
-/*styling for the book details on bigger screens*/
+  /*styling for the book details on bigger screens*/
   .flex-2 {
     display: flex;
     flex: 1;
@@ -173,13 +174,13 @@
     margin-top: 25px;
     margin-right: 60px;
   }
-/*styling for the book details h2 tags on bigger screens*/
+  /*styling for the book details h2 tags on bigger screens*/
   .flex-2 h2 {
     padding: 5px 5px 15px;
     text-align: left;
     font-size: 2.5em;
   }
-/*styling for the book details p tags on bigger screens*/
+  /*styling for the book details p tags on bigger screens*/
   .flex-2 p {
     padding: 5px;
     text-align: left;
@@ -226,12 +227,12 @@
   }
 
   /*styling for list on tablet+ screens*/
-  .tablet-list{
+  .tablet-list {
     text-align: center;
     margin: 20px 0;
   }
-/*styling for list links on tablet+ screens*/
-  .tablet-list a{
+  /*styling for list links on tablet+ screens*/
+  .tablet-list a {
     text-decoration: none;
     font-size: 22px;
     font-weight: normal;
@@ -239,7 +240,7 @@
     background-color: #faf7f7;
     color: black;
   }
-/*styling for list link actions on tablet+ screens*/
+  /*styling for list link actions on tablet+ screens*/
   .tablet-list a:hover {
     color: #faf7f7;
     background-color: rgba(94, 67, 67, 0.5);
@@ -248,11 +249,11 @@
 
 /*styling to resize list and p at this size*/
 @media only screen and (max-width: 770px) {
-  .tablet-list a{
+  .tablet-list a {
     padding: 5px;
   }
-  .flex-2 p{
-    font-size: 1em ;
+  .flex-2 p {
+    font-size: 1em;
     padding: 0px;
   }
 }
@@ -265,7 +266,7 @@
     display: flex;
     margin: 50px auto;
   }
-  
+
   /*styling for book image on big screen*/
   .book {
     width: 90%;
