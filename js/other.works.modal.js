@@ -64,3 +64,12 @@ function outsideClick2(e) {
     modal2.style.display = "none";
   }
 }
+window.addEventListener("resize", myResizeFunction);
+
+function myResizeFunction() {
+  if (screen.width >= 700) {
+    modal2.style.display = "none";
+    modal1.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+}
